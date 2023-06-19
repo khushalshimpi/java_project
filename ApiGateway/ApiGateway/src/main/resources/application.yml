@@ -1,0 +1,45 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: API-Gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: LOAN-SERVICE
+          uri:
+            http://localhost:8086
+          predicates:
+            - Path=/loanService/v1/loan/**
+
+        - id: MOTOR-INSURANCE-SERVICE
+          uri:
+            lb://MOTOR-INSURANCE-SERVICE
+          predicates:
+            - Path=/motorinsurance/**
+
+        - id: CUSTOMER-SERVICE
+          uri:
+            lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/customer/**
+
+
+
+    discovery:
+      enabled=true
+#        - id: item-service
+#          uri: lb://mongodb-service
+#          predicates:
+#            - Path=/item/**
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

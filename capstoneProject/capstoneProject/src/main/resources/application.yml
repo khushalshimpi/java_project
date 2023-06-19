@@ -1,0 +1,22 @@
+server:
+  port: 8086
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  application:
+    name: LOAN-SERVICE
+  datasource:
+    url: jdbc:mysql://localhost:3306/loanDataBase?useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: Root@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+

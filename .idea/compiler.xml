@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server" />
+        <module name="MotorInsurance_service" />
+        <module name="security" />
+        <module name="customerManagementService" />
+        <module name="capstoneProject" />
+        <module name="Capstone_Project_T5" />
+        <module name="ApiGateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ApiGateway" target="17" />
+      <module name="Capstone_Project_T5" target="1.5" />
+      <module name="capstoneProject" target="17" />
+      <module name="customerManagementService" target="17" />
+      <module name="MotorInsurance_service" target="17" />
+      <module name="security" target="17" />
+      <module name="server" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway" options="-parameters" />
+      <module name="MotorInsurance_service" options="-parameters" />
+      <module name="capstoneProject" options="-parameters" />
+      <module name="customerManagementService" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="server" options="-parameters" />
+    </option>
+  </component>
+</project>

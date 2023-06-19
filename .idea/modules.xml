@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiGateway/ApiGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/ApiGateway/ApiGateway/ApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Capstone_Project_T5.iml" filepath="$PROJECT_DIR$/.idea/Capstone_Project_T5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MotorInsurance_service/MotorInsurance_service.iml" filepath="$PROJECT_DIR$/MotorInsurance_service/MotorInsurance_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capstoneProject/capstoneProject/capstoneProject.iml" filepath="$PROJECT_DIR$/capstoneProject/capstoneProject/capstoneProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer_service/customerManagementService/customerManagementService.iml" filepath="$PROJECT_DIR$/customer_service/customerManagementService/customerManagementService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-3-jwt-security-main1212/spring-boot-3-jwt-security-main/security.iml" filepath="$PROJECT_DIR$/spring-boot-3-jwt-security-main1212/spring-boot-3-jwt-security-main/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server/server.iml" filepath="$PROJECT_DIR$/server/server/server.iml" />
+    </modules>
+  </component>
+</project>
